@@ -1,0 +1,42 @@
+DateTime==4.0.1
+Django==1.7
+Pillow==2.5.3
+PyJWT==0.2.1
+Unipath==1.0
+amqp==1.4.6
+anyjson==0.3.3
+billiard==3.3.0.18
+boto==2.32.1
+certifi==14.05.14
+-e git+https://github.com/dlcerva/django-cors-headers.git@master#egg=django-cors-headers
+django-filter==0.7
+django-floppyforms==1.2.0
+-e git+https://github.com/sehmaschine/django-grappelli.git@bca42188c13dca5f6a4dbf05e4a3f18db5c40546#egg=django_grappelli-master
+django-sslify==0.2.3
+django-tinymce==1.5.2
+djangorestframework==2.4.2
+rest_framework_ember==1.0.2
+dj-static==0.0.6
+easy-thumbnails==2.1
+httplib2==0.9
+kombu==3.0.22
+oauthlib==0.6.3
+pystache==0.5.4
+python-dateutil==2.2
+python-social-auth==0.1.26
+-e git+https://github.com/dlcerva/python-instagram.git@e75462b5558f575d51b0d7f02a4a516c2ec6ee3e#egg=python_instagram-master
+python-openid==2.2.5
+python-twitter==2.0
+pytz==2014.7
+requests==2.4.0
+requests-oauthlib==0.4.1
+simple-salesforce==0.65.1
+simplejson==3.6.3
+six==1.7.3
+static==1.0.2
+static3==0.5.1
+suds==0.4
+wsgiref==0.1.2
+zope.interface==4.1.1
+birdy==0.2
+django-extensions==1.4
