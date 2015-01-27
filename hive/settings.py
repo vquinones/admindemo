@@ -10,10 +10,11 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+APP_DIR = os.path.dirname(globals()['__file__'])
 BASE_IMAGE_URL = 'http://localhost:8000'
 MEDIA_URL = '/media/'
-PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -30,6 +31,7 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 
+ERROR_MESSAGE = 'Error login'
 # Application definition
 
 INSTALLED_APPS = (
@@ -37,8 +39,8 @@ INSTALLED_APPS = (
     # 'admin_tools.theming',
     # 'admin_tools.menu',
     # 'admin_tools.dashboard',
-    'myadmin',
-
+    #'myadmin',
+    'useradmin',
     'django.contrib.auth',
     'django.contrib.sites',
     'django.contrib.contenttypes',
@@ -112,7 +114,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
-
+STATIC_ROOT = os.path.join(APP_DIR, '../', 'static')
 STATIC_URL = '/static/'
 
 THUMBNAIL_ALIASES = {
