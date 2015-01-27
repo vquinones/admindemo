@@ -1,0 +1,22 @@
+ul{
+    padding:0;
+    display:block;
+}
+.buttons{position: fixed; bottom: 0; width:98%;}
+.container {float:left; width:15%;}
+div ul li{
+    display:block;
+    list-style:none;
+    border-radius:5px;
+    padding: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.preview {
+    border: 1px solid #000;
+    width: 80%;
+    height: 370px;
+    float:right;
+}

@@ -1,0 +1,32 @@
+h2 {
+  font-size:100%;
+  font-weight: bold;
+  color:#fff;
+  background:#000;
+  height: 30px;
+}
+
+ul{
+  list-style:none;
+  overflow:hidden;
+  padding:3em;
+}
+ul li {
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:28em;
+  height: 170px;
+  padding: 0 0 4px 0;
+}
+ul li{
+  margin:2em;
+  float:left;
+}
+
+    .opt {
+    position: relative;
+    bottom: 1px;
+    }
